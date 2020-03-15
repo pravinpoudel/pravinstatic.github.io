@@ -21,6 +21,7 @@ html {
   top: 60px;
   z-index: 12;
 }
+
 a{
   color: #000;
 }
@@ -59,7 +60,7 @@ span.call {
 }
 
 section {
-  height: 100vh;
+  height: auto;
   width: 100%;
   position: relative;
   /* z-index: 1; */
@@ -90,16 +91,17 @@ section {
 }
 
 .big_intro {
-  position: absolute;
+  /* position: absolute; */
   right: 0px;
   z-index: 12;
+  float: right;
 }
 
 
 .big_intro_text{
   font-size: 68px;
   z-index: 12;
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Poppins', sans-serif;
 }
 
@@ -326,7 +328,7 @@ section {
 
 }
 .detail_content{
-  position: absolute;
+  /* position: absolute; */
   top: 73%;
   width: 70%;
   /* text-align: center; */
