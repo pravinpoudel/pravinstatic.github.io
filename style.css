@@ -73,7 +73,7 @@ section {
 }
 
 .last-section {
-  height: 40vh;
+  height: auto;
 }
 
 .img_back {
@@ -265,7 +265,7 @@ section {
 
 .social_ul {
   list-style-type: none;
-  font-family: "Inconsolata", monospace;
+  /* font-family: "Inconsolata", monospace; */
 }
 
 .social_ul li {
@@ -493,4 +493,11 @@ border-bottom: 2px solid #ffb605;
 
 address{
   display: inline-block;
+}
+
+.bottom_img{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
 }
