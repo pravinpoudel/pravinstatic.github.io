@@ -275,8 +275,8 @@ section {
 }
 
 .resume_wrapper h2 {
-  font-size: 70px;
-  padding-bottom: 25px;
+  font-size: 40px;
+  /* padding-bottom: 25px; */
 }
 
 .resume_wrapper ul {
@@ -291,7 +291,7 @@ section {
   border-bottom: 3px solid #e8c30e;
   font-size: 15px;
   padding: 0px 10px 5px 0px;
-  font-family: "Inconsolata", monospace;
+  /* font-family: "Inconsolata", monospace; */
 }
 
 .social_ul li a {
@@ -313,6 +313,10 @@ section {
   padding: 36px;
   min-width: 35%;
   box-shadow: 0 0 38px rgba(0, 0, 0, 0.3), 0 0 12px rgba(0, 0, 0, 0.22);
+  position: relative;
+  top: 58%;
+  left: 4%;
+  z-index:12;
 }
 
 .call_wrapper h1 {
@@ -383,13 +387,14 @@ section {
   text-align: center;
   text-transform: uppercase;
   border-bottom:1px solid #c77a09;
-  margin:43px 0 58px;
+  margin:149px 0 58px;
   padding: 13px 23px;
 }
 
 .virtual_div img{
-  width: 100%;
+  width: 78%;
   position: absolute;
-  opacity:0.82;
-  right: -10%;
+  opacity:0.84;
+  top: 85%;
+  left: 21%;
 }
