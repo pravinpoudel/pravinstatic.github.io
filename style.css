@@ -386,8 +386,12 @@ section {
 
 .card-img-div {
   padding: 30px;
-  background: #f1f1f1;
+  /* background: #f1f1f1; */
   /* box-shadow: 2px 2px 21px; */
+}
+
+.card{
+  border:none;
 }
 
 .card-text{
