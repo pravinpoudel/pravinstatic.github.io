@@ -501,7 +501,7 @@ address{
 
 .bottom_img{
   position: absolute;
-  top: 0px;
+  top: -45px;
   right: 0px;
   z-index: 1;
 }
