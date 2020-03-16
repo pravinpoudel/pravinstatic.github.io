@@ -52,7 +52,7 @@
 }
 
 .mi-slider ul li a {
-	font-family: 'Poppins', sans-serif;
+	/* font-family: 'Poppins', sans-serif; */
 	outline: none;
 	cursor: pointer;
 }
@@ -67,7 +67,7 @@
 	display: inline-block;
 	/* font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif; */
 	/* font-style: italic; */
-	font-weight: 400;
+	/* font-weight: 400; */
 	font-size: 18px;
 	padding: 20px 10px 0;
 }
