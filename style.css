@@ -17,7 +17,7 @@ html {
   position: absolute;
   font-family: "Rubik", sans-serif;
   right: 25px;
-  font-size: 19px;
+  /* font-size: 19px; */
   top: 60px;
   z-index: 12;
 }
@@ -36,7 +36,7 @@ a:hover {
 }
 .logo a:hover {
   border-bottom: none;
-  color: #fff;
+  color: #a064ff;
 }
 
 .logo a {
@@ -57,6 +57,7 @@ a:hover {
 
 span.call {
   font-weight: 600;
+  color: #a064ff;
 }
 
 section {
@@ -95,6 +96,7 @@ section {
   right: 0px;
   z-index: 12;
   float: right;
+  text-align: right;
 }
 
 
@@ -122,7 +124,9 @@ section {
 }
 
 .intro h6{
-  font-size: 17px;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 1.2;
 }
 
 .grid_wrapper {
@@ -164,7 +168,7 @@ section {
 .circle_red {
   width: 80px;
   height: 80px;
-  border: 22px solid #ff1919;
+  border: 22px solid #ff1919db;
   position: absolute;
   top: 37%;
   right: 12%;
@@ -326,6 +330,11 @@ section {
 .call_wrapper .call {
   color: #fe9902;
 }
+
+.top_section{
+  min-height: 100vh;
+}
+
 .top_section , .portfolio_section{
   background: white;
   color: #a164ff;
@@ -367,7 +376,7 @@ section {
 
 .card-body .card-title{
   text-transform: uppercase;
-  border-bottom: 1px dotted #c2c2c2;
+  /* border-bottom: 1px dotted #c2c2c2; */
   padding-bottom: 8px;
 }
 
@@ -379,6 +388,12 @@ section {
   padding: 30px;
   background: #f1f1f1;
   /* box-shadow: 2px 2px 21px; */
+}
+
+.card-text{
+  border-top: 1px dotted #c2c2c2;
+  padding-top: 12px;
+  margin-top: 12px;
 }
 
 .sec-title{
@@ -397,4 +412,69 @@ section {
   opacity:0.84;
   top: 85%;
   left: 21%;
+}
+
+.tag span{
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  padding: 2px 9px 3px;
+  margin: 1px;;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.red{
+  background-color: #f92525;
+}
+
+.light_blue{
+  background-color: rgb(208, 236, 255);
+  
+}
+
+.green{
+  background-color: #46ad70;
+}
+
+.blue{
+  background-color: #2A2566;
+}
+
+.yellow{
+  background-color: #F7DF1E;
+  
+}
+
+.orange{
+  background-color: #e09b1d;
+}
+
+.brinjal{
+  background-color: #562765;
+}
+
+.blog{
+  width: 54%;
+  float: right;
+  padding-top: 12px;
+}
+
+
+.blog span{
+  font-family: 'Poppins', sans-serif;
+  /* color: #000; */
+}
+
+div.twitter{
+  position: relative;
+  top: 170px;
+}
+
+.twitter a {
+  position: absolute;
+  z-index: 999;
+  right: 0px;
+  color: #a064ff;
+  font-size: 70px;
 }
