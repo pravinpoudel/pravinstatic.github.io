@@ -386,3 +386,10 @@ section {
   margin:43px 0 58px;
   padding: 13px 23px;
 }
+
+.virtual_div img{
+  width: 100%;
+  position: absolute;
+  opacity:0.82;
+  right: -10%;
+}
