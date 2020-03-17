@@ -525,3 +525,7 @@ address{
   right: 0px;
   z-index: 1;
 }
+
+.mi-slider ul li a:hover{
+  color: #000;
+}
